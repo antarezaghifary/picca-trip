@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "829037927267",
+    "firebase_url": "https://tugaspw-cbf25.firebaseio.com",
+    "project_id": "tugaspw-cbf25",
+    "storage_bucket": "tugaspw-cbf25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829037927267:android:5848177f7229a6d0",
+        "android_client_info": {
+          "package_name": "com.example.aa.tugaspw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829037927267-dfl8fvd0f1oj6ksfsniqc1hicn0dto4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aa.tugaspw",
+            "certificate_hash": "faab9833ccec9b7de15447c415aa80fe1bc5467f"
+          }
+        },
+        {
+          "client_id": "829037927267-a9eqm7p805pbpoqu2ucqrs8hngvco27e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuIFh4PNYjGxDiLcPQX_VjCpD5IHqc-nE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829037927267-a9eqm7p805pbpoqu2ucqrs8hngvco27e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

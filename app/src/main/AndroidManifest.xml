@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aa.tugaspw">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_apps"
+        android:hardwareAccelerated="false"
+        android:label="Picca"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OnBoard.OnBoardingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home.MainActivityBeranda"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Go.GoGunung"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GoBooking.GoBookingGunungRinjani"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCo3-B_P1_NFnhd852ETTa3OixUQtXG_yk" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Go.GoPantai"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GoBooking.GoBookingPantaiGoaCina"
+            android:label="@string/title_activity_go_booking_pantai_goa_cina"
+            android:parentActivityName=".Go.GoPantai"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Go.GoBumper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookPayment.BookingRinjani"
+            android:screenOrientation="portrait" />
+        <activity android:name=".HistoryPesanan" />
+        <activity android:name=".Go.goToEvent" />
+        <activity android:name=".Go.goToPoint"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_informasi"
+    android:padding="10dp"
+    tools:context=".RinjaniFragment.DetailRinjani">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnBookingRinjani">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Gunung Rinjani yang merupakan salah satu gunung berapi tertinggi nomor dua setelah Gunung Kerinci di Jambi ini memang begitu luas biasa. Tak heran jika gunung ini selalu menjadi tujuan favorite bagi para wisatawan domestik maupun lokal. Di kalangan pendaki, pesona Gunung Rinjani juga sangat populer dibandingkan gunung-gunung lainnya. Gunung tertinggi nomor dua di Indonesia ini memiliki ketinggian sekitar 3.726m dpl, yang mana di Puncak Rinjani terdapat sebuah Kaldera besar membentuk Segara Anakan." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fasilitas :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Untuk fasilitas secara resmi masih belum tersedia di kawasan Gunung Rinjani, Namun jika anda membutuhkan angkutan atau rumah untuk menginap anda bisa menyewanya dari warga sekitar di kaki Gunung Rinjani.Ada warung dan toko di sekitar rumah warga setempat yang menyediakan kebutuhan makanan dan minuman. Namun belum tersedia toko peralatan pendakian atau barang yang mendukung untuk aktifitas hiking." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiket Masuk :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="• Senin – Kamis" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1) Asing : Rp150.000 per hari untuk satu orang\n2) Lokal : Rp5.000/hari untuk satu orang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="• Hari Libur" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="1) Asing : Rp225.000 per hari untuk satu orang\n2) Lokal : Rp7.500 per hari per satu orang" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBookingRinjani"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_booking"
+        android:text="Booking"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

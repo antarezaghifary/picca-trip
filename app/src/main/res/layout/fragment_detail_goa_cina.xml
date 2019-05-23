@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_informasi"
+    tools:context=".GoaCinaFragment.DetailGoaCina">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnBookingGoaCina"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Pantai Rowo Indah juga dikenal dengan nama Pantai Goa Cina karena sekitar 20 tahun lalu di dalam gua yang terdapat di sini ditemukan sesosok mayat serta tulisan-tulisan huruf Cina di bagian dindingnya. Sosok tersebut diyakini sebagai seorang biksu yang bersemedi hingga ajal menjemput." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fasilitas dan Wahana :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Pantai Goa Cina memiliki fasilitas cukup lengkap. Anda bisa menemukan beberapa warung kecil yang menyediakan menu makan berat, masjid, mushola, hingga kamar mandi. Dengan berbagai macam fasilitas pendukung ini, liburan Anda pasti menjadi semakin menyenangkan. Untuk hotel, Anda bisa menginap di luar daerah Pantai Goa Cina, karena belum terdapat hotel di sekitar sini." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiket Masuk :"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tiket Masuk: Rp10.000,-\n• Di Goa Cina Rp5.000,-" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBookingGoaCina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_booking"
+        android:text="Booking"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

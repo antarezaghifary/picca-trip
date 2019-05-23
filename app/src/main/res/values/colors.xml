@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#273833</color>
+    <color name="black">#000</color>
+    <color name="lightOrange">#fdf2df</color>
+    <color name="lightOrangeDark">#ebd6ab</color>
+    <color name="selectDots">#62c6ea</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorTabs">#0098da</color>
+    <color name="colorBlue">#007db3</color>
+    <color name="colorBooking">#1ace59</color>
+    <color name="orange">#e06d38</color>
+</resources>

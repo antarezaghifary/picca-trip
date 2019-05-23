@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TugasPW</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_go_booking_pantai_goa_cina">Pantai Goa Cina</string>
+    <string name="rute_goa_cina">
+        Jika dari pusat kota Malang, Pantai Goa Cina terletak di arah Selatannya dengan mengambil rute ke Gadang yang menuju Bululawang. Dari Bululawang, pergi ke arah Turen, lalu ke Dampit, dan ke Sumber Manjung Wetan. Ketika di perjalanan, kamu akan disuguhkan pemandangan gunung kapur, tepatnya ketika berada di Desa Druju. Sebelum tiba di Pantai Goa Cina, kamu juga akan melihat sebuah jembatan berdesain di Desa Bajul Mati. Jembatan Bajulmati ini terletak di atas muara laut dan memiliki panjang 80 meter. Sedangkan lebarnya lebih kurang 20 meter untuk kedua jalur. Arsitektur jembatan ini cukup menarik karena ada tiang setinggi 20 meter yang melengkung dengan posisi membujur. Ini menjadikan jembatan Bajulmati sangat khas dan mudah dikenali. Nanti, di desa Bajul Mati akan ada pertigaan menuju ke lokasi Pantai. Kira-kira lama perjalanan dari kota Malang adalah sekitar 3 jam.
+    </string>
+    <string name="action_settings">Settings</string>
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+</resources>
